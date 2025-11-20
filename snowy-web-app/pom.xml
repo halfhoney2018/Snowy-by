@@ -118,6 +118,11 @@
             <groupId>vip.xiaonuo</groupId>
             <artifactId>snowy-plugin-sys</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>vip.xiaonuo</groupId>
+            <artifactId>snowy-plugin-flyway</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
