@@ -1,0 +1,13 @@
+spring:
+  flyway:
+    #是否启用
+    enabled: true
+    #路径
+    locations: classpath:db/mysql
+    #当迁移时发现目标schema非空，而且带有没有元数据的表时，是否自动执行基准迁移，默认false.
+    baseline-on-migrate: true
+    #迁移时是否校验，默认为true
+    validate-on-migrate: true
+    clean-disabled: false
+    table: flyway_schema_history
+    sql-migration-prefix: V

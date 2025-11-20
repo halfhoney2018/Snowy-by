@@ -35,5 +35,8 @@
 
         <!-- 系统功能插件 -->
         <module>snowy-plugin-sys</module>
+
+        <!-- 版本控制 -->
+        <module>snowy-plugin-flyway</module>
     </modules>
 </project>
